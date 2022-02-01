@@ -1,5 +1,5 @@
 # The-Fatherland-Defender
-A test project for passing the recruitment in the gamebox
+A test project for passing the recruitment in the gamebox.
 
 Unity version: 2022.3.22f1 
 
