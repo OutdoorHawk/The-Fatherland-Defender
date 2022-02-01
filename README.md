@@ -12,7 +12,7 @@ A Windows operating system on x86(x64) architecture is required.
 The project folder is called "The Fatherland Defender".
 
 PC build download link:
-https://drive.google.com/file/d/1nE2KDBBBBV1haOzZ3YCy4xC146VCY92s/view?usp=sharing
+https://drive.google.com/file/d/1dfvrLjW-X-J81vQ9qqzqSBUFWf6aXROM/view?usp=sharing
 
 ###Important
 
