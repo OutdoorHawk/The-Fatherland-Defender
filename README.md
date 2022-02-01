@@ -8,6 +8,7 @@ Unity version: 2022.3.22f1
 
 This project runs on the Unity engine. Make sure to have the newest version installed before running the project.
 A Windows operating system on x86(x64) architecture is required.
+
 The project folder is called "The Fatherland Defender".
 
 PC build download link:
