@@ -14,7 +14,7 @@ The project folder is called "The Fatherland Defender".
 PC build download link:
 https://drive.google.com/file/d/1nE2KDBBBBV1haOzZ3YCy4xC146VCY92s/view?usp=sharing
 
-Important.
+###Important
 
 Project is currently designed for a monitor resolution of 1920 by 1080. With a different resolution, the interface position may be incorrect, other problems are also possible.
 To avoid this, make sure that you are using a 1080p monitor or change monitor resolution in the settings.
