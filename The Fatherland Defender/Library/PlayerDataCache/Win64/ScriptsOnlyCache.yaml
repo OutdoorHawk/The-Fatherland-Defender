@@ -1020,4 +1020,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/LevelSelect.unity
   - Assets/Scenes/Level 1 Easy.unity
   - Assets/Scenes/Level 1 Default.unity
-  playerPath: C:/Users/olegm/UnityProjects/TD Build/Tower Defence.exe
+  playerPath: C:/Users/olegm/UnityProjects/TFD Build/Tower Defence.exe
