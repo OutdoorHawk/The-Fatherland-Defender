@@ -1,22 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Notifications : MonoBehaviour
 {
-    private Animator _anim;
+   
 
     [SerializeField] private GameObject _getReadyText;
     [SerializeField] private GameObject _noMoneyText;
+    [SerializeField] private GameObject _clearWaveText;
 
-    [SerializeField] private Vector3 _notificationSpawnPosition;
+    [SerializeField] private Text _clearBonusAmount;
+
+    private Animator _anim;
+
+   
+
+  
+
 
     private void Awake()
     {
         _anim = GetComponent<Animator>();
+       
         GetReady();
     }
 
+    
     public void NoMoney()
     {
        
@@ -39,11 +50,23 @@ public class Notifications : MonoBehaviour
 
     }
 
-   
+ 
+
+    public void ClearWaveBonus(int moneyForClearWave)
+    {
+        _clearBonusAmount.text = "$" + moneyForClearWave.ToString();
+        _clearWaveText.SetActive(true);
+        _anim.SetTrigger("ClearWave");
+       
+    }
+
+
+
 
 
     private void NotificationsOff()
     {
+        _clearWaveText.SetActive(false);
         _noMoneyText.SetActive(false);
             _getReadyText.SetActive(false);
         

@@ -23,6 +23,8 @@ public class WaveSpawner : MonoBehaviour
 
     [SerializeField] private GameObject[] _enemyPaths;
 
+    [SerializeField] private Notifications _notifications;
+
     private Enemy _curretEnemy;
 
     private int _waveNumber = 0;
@@ -40,16 +42,16 @@ public class WaveSpawner : MonoBehaviour
         enemiesAlive = 0;
         _countdown = 10;
 
-        
-
        
+       
+
     }
 
     private void Start()
     {
         StartCoroutine(SpawnGhostPaths());
 
-
+       
     }
 
     private void Update()
@@ -69,6 +71,7 @@ public class WaveSpawner : MonoBehaviour
                
                 if (Stats.HealthPoints == _lastRoundHP)
                 {
+                    _notifications.ClearWaveBonus(_moneyForClearWave);
                    
                     Stats.Money += _moneyForClearWave;
 
@@ -201,5 +204,8 @@ public class WaveSpawner : MonoBehaviour
     }
 
 
-
+    public int GetClearWaveMoney()
+    {
+        return _moneyForClearWave;
+    }
 }
