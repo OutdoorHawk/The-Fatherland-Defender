@@ -1,7 +1,7 @@
 # The-Fatherland-Defender
 A test project for passing the recruitment in the Gamebox.
 
-Unity version: 2022.3.22f1 
+Unity version: 2020.3.22f1 
 
 
 ###Software
